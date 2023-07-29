@@ -28,7 +28,7 @@ downloadButton.addEventListener("click", async (event) => {
   console.log("Downloading video");
 
   const response = await fetch(
-    "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
+    "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
   );
   const arrayBuffer = await response.arrayBuffer();
 
